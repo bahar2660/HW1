@@ -1,0 +1,12 @@
+#include<iostream>
+#include<iomanip>
+#include<fstream>
+
+int main(){
+
+  std::ofstream ofile{"text.test"};
+  ofilr<<"x"<<12<<std::endl;
+  ofile.close();
+
+  return 0;
+}

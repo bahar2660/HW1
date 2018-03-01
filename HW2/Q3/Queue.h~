@@ -1,0 +1,20 @@
+
+class Queue {
+
+ public:
+
+  Queue ("Queue.txt");    //constructor
+  // Queue (Queue & );        //copy constructor
+  ~Queue();               //Distructor
+
+  void displayQueue ();
+  // void enQueue( double num);
+  //void deQueue();
+  
+
+
+ private:
+  int N;
+  double* arr;
+
+};

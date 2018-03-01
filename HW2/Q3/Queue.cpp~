@@ -1,0 +1,27 @@
+#include<iostream>
+#include"Queue.h"
+#include <fstream>
+
+Queue::Queue("Queue.txt") {
+
+ 
+  
+std::ifstream ifile{"Queue.txt",std::ios::app};
+ ifile>>N;
+  arr=new double [N];
+ for(int i ;i<N ; i++)
+   ifile>>arr[i];
+
+}
+void Queue::displayQueue(){
+
+  for (int i{} ; i<N ;i++)
+    std::cout<<arr[i]<<"  ";
+  std::cout<<std::endl;
+}
+
+Queue::~Queue(){
+
+  std::cout<<"Distructor"<<std::endl;
+  delete [] Queue;
+}
