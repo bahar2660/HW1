@@ -7,9 +7,15 @@
 
 
 int main(){
+<<<<<<< HEAD
   
 
  Queue q{"Queue.txt"};
+=======
+std::ifstream ifile{"Queue.txt",std::ios::app};
+
+ Queue q{ifile};
+>>>>>>> 58ddcff5eb8c090836b93f6021e0d647b0aaf79d
 
     // Display elements present in Circular Queue
    q.displayQueue();

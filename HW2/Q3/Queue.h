@@ -6,7 +6,11 @@ class Queue {
  public:
   
 
+<<<<<<< HEAD
   Queue (std::string file);    //constructor
+=======
+  Queue (std::ifstream &ifile);    //constructor
+>>>>>>> 58ddcff5eb8c090836b93f6021e0d647b0aaf79d
   
   ~Queue();                        //Distructor
 
