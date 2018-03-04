@@ -1,9 +1,21 @@
+<<<<<<< HEAD
 #include<fstream>
 #include<string>
+=======
+<<<<<<< HEAD
+#include<fstream>
+#include<string>
+=======
+>>>>>>> 58ddcff5eb8c090836b93f6021e0d647b0aaf79d
+>>>>>>> 2e537ec67b02f126773617f78b2e12e53c15bf8f
 
 class Queue {
 
  public:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2e537ec67b02f126773617f78b2e12e53c15bf8f
   
 
   Queue (std::ifstream &ifile);    //constructor
@@ -13,16 +25,39 @@ class Queue {
   void displayQueue ();
   void enQueue( double num);      //Inserting in array
   double deQueue();               //deleting from array
+<<<<<<< HEAD
+=======
+=======
+
+  Queue ("Queue.txt");    //constructor
+  // Queue (Queue & );        //copy constructor
+  ~Queue();               //Distructor
+
+  void displayQueue ();
+  // void enQueue( double num);
+  //void deQueue();
+>>>>>>> 58ddcff5eb8c090836b93f6021e0d647b0aaf79d
+>>>>>>> 2e537ec67b02f126773617f78b2e12e53c15bf8f
   
 
 
  private:
   int N;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2e537ec67b02f126773617f78b2e12e53c15bf8f
   double num;
   double* arr;
   char cama;    //,
   int ReadPointer;
   int WritePointer;
   std::ifstream ifile;
+<<<<<<< HEAD
+=======
+=======
+  double* arr;
+>>>>>>> 58ddcff5eb8c090836b93f6021e0d647b0aaf79d
+>>>>>>> 2e537ec67b02f126773617f78b2e12e53c15bf8f
 
 };

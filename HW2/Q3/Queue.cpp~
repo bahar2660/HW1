@@ -1,6 +1,10 @@
 #include<iostream>
 #include"Queue.h"
 #include <fstream>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2e537ec67b02f126773617f78b2e12e53c15bf8f
 #include<string>
 Queue::Queue(std::string file) {
   std:: ifstream ifile{file,std::ios::app};
@@ -32,10 +36,29 @@ Queue::Queue(std::string file) {
  
  ifile.close();
  
+<<<<<<< HEAD
+=======
+=======
+
+Queue::Queue("Queue.txt") {
+
+ 
+  
+std::ifstream ifile{"Queue.txt",std::ios::app};
+ ifile>>N;
+  arr=new double [N];
+ for(int i ;i<N ; i++)
+   ifile>>arr[i];
+>>>>>>> 58ddcff5eb8c090836b93f6021e0d647b0aaf79d
+>>>>>>> 2e537ec67b02f126773617f78b2e12e53c15bf8f
 
 }
 void Queue::displayQueue(){
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2e537ec67b02f126773617f78b2e12e53c15bf8f
   std::cout<<"the numbers in array are : "<<std::endl;
   
   for (int i{} ; i<N ;i++)
@@ -79,4 +102,18 @@ Queue::~Queue(){
 
   std::cout<<"Distructor"<<std::endl;
   
+<<<<<<< HEAD
+=======
+=======
+  for (int i{} ; i<N ;i++)
+    std::cout<<arr[i]<<"  ";
+  std::cout<<std::endl;
+}
+
+Queue::~Queue(){
+
+  std::cout<<"Distructor"<<std::endl;
+  delete [] Queue;
+>>>>>>> 58ddcff5eb8c090836b93f6021e0d647b0aaf79d
+>>>>>>> 2e537ec67b02f126773617f78b2e12e53c15bf8f
 }
