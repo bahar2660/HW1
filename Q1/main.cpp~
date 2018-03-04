@@ -1,0 +1,11 @@
+#include<iostream>
+#include<iomanip>
+
+int main(){
+  char a{'a'};
+  const char* name{'Amir jahanshahi'};
+  const char* p1{name};
+  std::cout<<*p1<<*(p1+1)<<*(p1+2)<<std::endl;
+
+  return 0;
+}
