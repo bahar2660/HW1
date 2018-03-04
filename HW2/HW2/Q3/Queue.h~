@@ -1,0 +1,46 @@
+<<<<<<< HEAD
+#include<fstream>
+#include<string>
+=======
+>>>>>>> 58ddcff5eb8c090836b93f6021e0d647b0aaf79d
+
+class Queue {
+
+ public:
+<<<<<<< HEAD
+  
+
+  Queue (std::ifstream &ifile);    //constructor
+  
+  ~Queue();                        //Distructor
+
+  void displayQueue ();
+  void enQueue( double num);      //Inserting in array
+  double deQueue();               //deleting from array
+=======
+
+  Queue ("Queue.txt");    //constructor
+  // Queue (Queue & );        //copy constructor
+  ~Queue();               //Distructor
+
+  void displayQueue ();
+  // void enQueue( double num);
+  //void deQueue();
+>>>>>>> 58ddcff5eb8c090836b93f6021e0d647b0aaf79d
+  
+
+
+ private:
+  int N;
+<<<<<<< HEAD
+  double num;
+  double* arr;
+  char cama;    //,
+  int ReadPointer;
+  int WritePointer;
+  std::ifstream ifile;
+=======
+  double* arr;
+>>>>>>> 58ddcff5eb8c090836b93f6021e0d647b0aaf79d
+
+};
